@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#pong {
+    border: 2px solid white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+#leftPaddle, #rightPaddle, #ball {
+    background-color: white;
+    width: 20px;
+    height: 100px;
+    position: absolute;
+}
+
+#leftPaddle {
+    left: 0;
+}
+
+#rightPaddle {
+    right: 0;
+}
+
+#ball {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
