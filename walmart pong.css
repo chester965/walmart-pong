@@ -17,7 +17,7 @@ body{
     align-items: center;
 }
 
-#leftPaddle, #rightPaddle, #ball {
+#ball {
     background-color: white;
     width: 20px;
     height: 100px;
@@ -27,11 +27,17 @@ body{
 #leftPaddle {
     left: 0;
     background-color: blue;
+    width: 20px;
+    height: 100px;
+    position: absolute;
 }
 
 #rightPaddle {
     right: 0;
     background-color: red;
+    width: 20px;
+    height: 100px;
+    position: absolute;
 }
 
 #ball {
