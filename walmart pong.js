@@ -56,6 +56,7 @@ function gameLoop() {
     if (ballY + 20 >= rightPaddleY && ballY <= rightPaddleY + 100) {
       ballXSpeed = -ballXSpeed;
     } else {
+      alert('Game Over')
       resetBall();
     }
   }
@@ -75,5 +76,3 @@ function resetBall() {
   ballXSpeed = ballSpeed;
   ballYSpeed = ballSpeed;
 }
-
-gameLoop();

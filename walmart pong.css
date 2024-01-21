@@ -1,10 +1,32 @@
-body{
+body {
     background-color: black;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.heading {
+    color: lightblue;
+    text-align: center;
+}
+
+.heading span {
+    color: white;
+    font-size: 16px;
+}
+
+.start-button{
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 47%;
+}
+.game-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
 #pong {
@@ -45,4 +67,3 @@ body{
     width: 20px;
     height: 20px;
 }
-

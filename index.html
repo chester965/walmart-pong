@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>pong</title>
-    <link href="walmart pong.css" rel="stylesheet"/>
+    <link href="walmart pong.css" rel="stylesheet" />
 </head>
+
 <body>
-    <div id="pong">
-        <div id="leftPaddle"></div>
-        <div id="rightPaddle"></div>
-        <div id="ball"></div>
-    </div>
+    <h1 class="heading">Pong <span> by Chester</span></h1>
     
+    <div class="game-container">
+        <div id="pong">
+            <div id="leftPaddle"></div>
+            <div id="rightPaddle"></div>
+            <div id="ball"></div>
+        </div>
+    </div>
+
+    <button class="start-button" onclick="gameLoop()">Start Game</button>
     <script src="walmart pong.js"></script>
 </body>
+
 </html>
