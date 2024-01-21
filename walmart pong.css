@@ -26,10 +26,12 @@ body{
 
 #leftPaddle {
     left: 0;
+    background-color: blue;
 }
 
 #rightPaddle {
     right: 0;
+    background-color: red;
 }
 
 #ball {
